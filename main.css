@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-rows: 10em 50vh auto 10em;
+    grid-template-rows: 10em 25vh auto 10em;
     grid-template-columns: 1fr minmax(30em, 5fr) minmax(15em, 2fr) 1fr;
     grid-template-areas: 
         "header header header header"
@@ -20,6 +20,7 @@ header, footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .hero {
@@ -29,6 +30,7 @@ header, footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .hero-title, .hero-subtitle {
@@ -37,12 +39,14 @@ header, footer {
 
 main {
     grid-area: main;
+    margin: 0;
 }
 
 aside {
     grid-area: sidebar;
     background: gainsboro;
     padding: 2em;
+    margin: 0;
 }
 
 footer {
