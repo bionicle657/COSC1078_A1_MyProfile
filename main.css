@@ -9,6 +9,8 @@ body {
         "footer footer footer footer";
     grid-column-gap: 1.5em;
     margin: 0;
+    background: #f7f7f7 url("images/bg04.png");
+	border-top: solid 1px #fff;
 }
 
 header {
@@ -44,8 +46,6 @@ header, footer {
 }
 
 main {
-    background: #f7f7f7 url("images/bg04.png");
-	border-top: solid 1px #fff;
     grid-area: main;
     margin: 0;
 }
