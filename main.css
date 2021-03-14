@@ -96,7 +96,7 @@ footer {
 }
 
 .card_img_only {
-    background: white;
+    background:#D4D9DD url("images/bg03.jpg");
     display: grid;
     grid-template-columns: 5fr;
     grid-template-rows: auto;
