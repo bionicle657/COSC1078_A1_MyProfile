@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Slab&display=swap');
 
 body {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Roboto Slab', serif;
     display: grid;
     grid-template-rows: 10em 25vh auto 10em;
     grid-template-columns: 0.5fr minmax(30em, 6fr) minmax(15em, 2fr) 0.5fr;
@@ -21,7 +21,7 @@ header {
 }
 
 header, footer {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Architects Daughter', cursive;
     background: #3B4346 url("images/bg01.jpg");
     color: white;
     border-bottom: solid 1px #272d30;
